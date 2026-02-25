@@ -1,0 +1,492 @@
+.Formsubmittion{
+  display: flex;
+  font-size: 20px;
+  background-color: rgb(79, 42, 165);
+  color: white;
+  padding:20px;
+  justify-content: center;
+}
+.Formsubmittion li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.Formsubmittion ul {
+  list-style: none;
+  padding: 0;
+}
+.Formsubmittion input[type="text"],
+.Formsubmittion input[type="number"],
+.Formsubmittion input[type="email"],
+.Formsubmittion input[type="tel"],
+.Formsubmittion input[type="password"] {
+  width: 350px;
+  height: 38px;
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.Useeffectapi{
+  display: flex;
+  font-size: 20px;
+  background-color: rgb(226, 190, 27);
+  color: rgb(20, 10, 10);
+  padding:20px;
+}
+.Useeffecthook{
+  display:inherit;
+  font-size: 20px;
+  background-color: rgb(42, 165, 58);
+  color: rgb(15, 11, 11);
+  padding:20px;
+}
+.Userefimg{  
+  width: 150px;
+  height:200px;
+  border: 6px solid black;
+  cursor: pointer;
+  background-color: blue;
+  }
+.Userefimg button{
+  display: inline;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  padding: 20px;
+ }
+ .light {
+  background: linear-gradient(135deg, #ffffff, #e3e3e3);
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark {
+  background: linear-gradient(135deg, #1e1e2f, #121212);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ThemeProvider{
+  background-color: #222;
+  color: white;
+    padding: 40px;
+  border-radius: 12px;
+ 
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.special-btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.light-btn {
+  background: linear-gradient(45deg, #333, #555);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+.dark-btn {
+  background: linear-gradient(45deg, #ffd700, #ff9800);
+  color: #121212;
+  box-shadow: 0 4px 15px rgba(255, 165, 0, 0.5);
+}
+
+
+.special-btn:hover {
+  transform: scale(1.1);
+}
+.Usereducer{
+  background-color: greenyellow;
+}
+.Router{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  background-color: #ffd700;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.Form {
+  height: fit-content;
+ background-color: #7d5cd6;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;       
+  height: 100vh;            
+  text-align: center;
+  gap: 20px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;     
+  margin-top: 40px;         
+  gap: 25px;               
+}
+
+.upload h2 {
+  margin-bottom: 20px;      
+}
+
+.Regis{
+   width: 100%;
+  height: 10vh;
+  display: block;
+  background-color: #b3162b;
+  justify-content: space-between;
+  align-items: last baseline;
+  padding: 50px;
+
+}
+.container {
+  background-color: palegreen;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: Arial;
+  padding: 10px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  background-color: #b3162b;
+  color: white;
+  border: 1px solid black;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.container button{  
+  background-color: #7d5cd6;
+  padding: 5px 10px;}
+.Score{
+  justify-content: left;
+}
+.blog{
+  background-color: skyblue;
+  color: #121212;
+}
+.parmli{
+  display: flex;
+  font-size: 20px;
+  background-color: rgb(141, 144, 190);
+  color: rgb(20, 10, 10);
+  padding:20px;
+
+}
+.chat-container {
+  background-color: rgb(78, 62, 221);
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: black;
+  
+}
+
+.chat-input {
+  flex: 1;
+  background-color: #6e81ee;
+  color: black;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.send-button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
+
+.chat-window {
+  margin-top: 10px;
+  color: black;
+}
+
+.message-list {
+  list-style: none;
+  padding: 0;
+}
+
+.message-item {
+  background: #f1f1f1;
+  padding: 6px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.empty-text {
+  color: #888;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #2f067a;
+  color: white;
+  field-sizing: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.nav-links a {
+  text-decoration: none;   
+  color: inherit;         
+}
+
+.hero {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://p0.piqsels.com/preview/570/16/932/computer-keyboard-apple-laptop.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.hero-btn button {
+  padding: 12px 30px;
+  background: rgb(170, 155, 16);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.dynamic-text {
+  margin: 15px 0;
+  font-size: 24px;
+  color: #ffd700;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.service-list li {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.servicesfin {
+     background-image: url("https://p2.piqsels.com/preview/5/61/263/abstract-desktop-pattern-pcb.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 60px;
+  text-align: center;
+}
+.service-container {
+  
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  
+  background-image: url("https://p2.piqsels.com/preview/832/650/411/office-neo-urban-apple-trend.jpg");
+    background-size: cover;
+  background-position: center;
+   background-color: rgb(231, 106, 106);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 350px;
+  min-height: 150px;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  }
+
+.contact {
+   background-image: url("https://p2.piqsels.com/preview/13/730/382/office-table-home-office-laptop.jpg");
+  background-size: cover;
+  background-position: center;
+    width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact input,
+.contact textarea {
+   display: block;
+  width: 350px;
+  padding: 8px;
+  margin: 8px 0;
+}
+.checkbox-row {
+  display: flex;
+  align-items: center;  
+  gap: 6px;
+  margin-top: 10px;
+}
+.checkbox-row input {
+  width: auto;
+  margin: 0;
+}
+
+button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+}
+
+.rating span {
+  margin: 5px;
+}
+
+.social button {
+  margin-right: 10px;
+}
+.about-section {
+  padding: 80px 20px;
+  background: gray;
+  color: white;
+  text-align: center;
+  height: 250px;
+}
+
+.about-container {
+
+  margin: auto;
+  width: 100%;
+}
+
+.about-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.support-section {
+  background-image:   
+    url("https://p2.piqsels.com/preview/656/190/490/laptop-computer-gadget-modern.jpg");
+   background-size: cover;
+  background-position: center;
+  margin: auto;
+  width: 100%;
+ height: 400px;
+ padding: 60px;
+ justify-content: center;
+}
+.support-section h3{
+  color: white;
+  text-align: center;
+}
+
+.support-section h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.support-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.support-card {
+  background: white;
+  padding: 25px;
+  width: 260px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-5px);
+}
+
+.support-card h4 {
+  margin-bottom: 10px;
+  color: #2563eb;
+}
